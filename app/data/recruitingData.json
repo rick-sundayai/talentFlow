@@ -1,0 +1,182 @@
+{
+  "recruitingMetrics": {
+    "totalPlacements": 147,
+    "monthlyPlacements": 23,
+    "activeOpenings": 45,
+    "avgTimeToFill": 28,
+    "candidateConversion": 12.4,
+    "clientSatisfaction": 94.2,
+    "activeCandidates": 892,
+    "totalRevenue": 1847000
+  },
+  "recruiterPerformance": [
+    {
+      "id": "1",
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@talentflow.com",
+      "placements": 47,
+      "openings": 12,
+      "fillRate": 89.2,
+      "avgTimeToFill": 24,
+      "rank": 1,
+      "trend": "up"
+    },
+    {
+      "id": "2",
+      "name": "Michael Chen",
+      "email": "michael.chen@talentflow.com",
+      "placements": 32,
+      "openings": 8,
+      "fillRate": 92.1,
+      "avgTimeToFill": 21,
+      "rank": 2,
+      "trend": "up"
+    },
+    {
+      "id": "3",
+      "name": "Emma Rodriguez",
+      "email": "emma.rodriguez@talentflow.com",
+      "placements": 38,
+      "openings": 15,
+      "fillRate": 76.8,
+      "avgTimeToFill": 32,
+      "rank": 3,
+      "trend": "stable"
+    },
+    {
+      "id": "4",
+      "name": "David Kim",
+      "email": "david.kim@talentflow.com",
+      "placements": 30,
+      "openings": 10,
+      "fillRate": 85.4,
+      "avgTimeToFill": 29,
+      "rank": 4,
+      "trend": "down"
+    }
+  ],
+  "recruitingStages": [
+    {
+      "name": "Applied",
+      "candidates": 892,
+      "conversionRate": 45.2,
+      "color": "bg-slate-400"
+    },
+    {
+      "name": "Screening",
+      "candidates": 403,
+      "conversionRate": 68.4,
+      "color": "bg-sky-400"
+    },
+    {
+      "name": "Interview",
+      "candidates": 276,
+      "conversionRate": 42.1,
+      "color": "bg-amber-400"
+    },
+    {
+      "name": "Offer",
+      "candidates": 116,
+      "conversionRate": 78.4,
+      "color": "bg-orange-400"
+    },
+    {
+      "name": "Hired",
+      "candidates": 91,
+      "conversionRate": 100,
+      "color": "bg-emerald-400"
+    }
+  ],
+  "activeOpenings": [
+    {
+      "id": "1",
+      "title": "Senior Software Engineer",
+      "client": "TechCorp Solutions",
+      "location": "San Francisco, CA",
+      "salaryRange": "$120k - $180k",
+      "status": "open",
+      "priority": "high",
+      "postedDate": "2024-01-10",
+      "daysOpen": 15,
+      "candidatesApplied": 47,
+      "recruiterId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Data Scientist",
+      "client": "FinanceFirst Inc.",
+      "location": "New York, NY",
+      "salaryRange": "$110k - $160k",
+      "status": "open",
+      "priority": "urgent",
+      "postedDate": "2024-01-08",
+      "daysOpen": 17,
+      "candidatesApplied": 32,
+      "recruiterId": "2"
+    },
+    {
+      "id": "3",
+      "title": "Product Manager",
+      "client": "MedTech Innovations",
+      "location": "Remote",
+      "salaryRange": "$130k - $170k",
+      "status": "open",
+      "priority": "medium",
+      "postedDate": "2024-01-12",
+      "daysOpen": 13,
+      "candidatesApplied": 28,
+      "recruiterId": "3"
+    },
+    {
+      "id": "4",
+      "title": "Marketing Director",
+      "client": "GrowthCo",
+      "location": "Austin, TX",
+      "salaryRange": "$95k - $140k",
+      "status": "filled",
+      "priority": "high",
+      "postedDate": "2024-01-05",
+      "daysOpen": 20,
+      "candidatesApplied": 56,
+      "recruiterId": "1"
+    }
+  ],
+  "recentActivity": [
+    {
+      "id": "1",
+      "candidateName": "Alex Thompson",
+      "action": "hired",
+      "jobTitle": "Senior Software Engineer",
+      "client": "TechCorp Solutions",
+      "timestamp": "2024-01-25T14:30:00Z",
+      "recruiterId": "1"
+    },
+    {
+      "id": "2",
+      "candidateName": "Maria Garcia",
+      "action": "interviewed",
+      "jobTitle": "Data Scientist",
+      "client": "FinanceFirst Inc.",
+      "timestamp": "2024-01-25T11:15:00Z",
+      "recruiterId": "2"
+    },
+    {
+      "id": "3",
+      "candidateName": "James Wilson",
+      "action": "offered",
+      "jobTitle": "Product Manager",
+      "client": "MedTech Innovations",
+      "timestamp": "2024-01-24T16:45:00Z",
+      "recruiterId": "3"
+    },
+    {
+      "id": "4",
+      "candidateName": "Sarah Lee",
+      "action": "screened",
+      "jobTitle": "Marketing Director",
+      "client": "GrowthCo",
+      "timestamp": "2024-01-24T09:20:00Z",
+      "recruiterId": "1"
+    }
+  ]
+}

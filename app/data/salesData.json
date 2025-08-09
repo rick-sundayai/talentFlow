@@ -1,0 +1,125 @@
+{
+  "salesMetrics": {
+    "totalRevenue": 2847000,
+    "monthlyRevenue": 487000,
+    "quarterlyRevenue": 1456000,
+    "yearOverYearGrowth": 23.5,
+    "avgDealSize": 34500,
+    "conversionRate": 18.7,
+    "activePipeline": 1967000,
+    "closedDeals": 47
+  },
+  "salesReps": [
+    {
+      "id": "1",
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@talentflow.com",
+      "revenue": 547000,
+      "deals": 12,
+      "quota": 500000,
+      "quotaAttainment": 109.4,
+      "rank": 1,
+      "trend": "up"
+    },
+    {
+      "id": "2",
+      "name": "Michael Chen",
+      "email": "michael.chen@talentflow.com",
+      "revenue": 423000,
+      "deals": 9,
+      "quota": 450000,
+      "quotaAttainment": 94.0,
+      "rank": 2,
+      "trend": "up"
+    },
+    {
+      "id": "3",
+      "name": "Emma Rodriguez",
+      "email": "emma.rodriguez@talentflow.com",
+      "revenue": 398000,
+      "deals": 11,
+      "quota": 480000,
+      "quotaAttainment": 82.9,
+      "rank": 3,
+      "trend": "stable"
+    },
+    {
+      "id": "4",
+      "name": "David Kim",
+      "email": "david.kim@talentflow.com",
+      "revenue": 367000,
+      "deals": 8,
+      "quota": 420000,
+      "quotaAttainment": 87.4,
+      "rank": 4,
+      "trend": "down"
+    }
+  ],
+  "pipelineStages": [
+    {
+      "name": "Prospects",
+      "deals": 24,
+      "value": 832000,
+      "color": "bg-slate-400"
+    },
+    {
+      "name": "Qualified",
+      "deals": 18,
+      "value": 645000,
+      "color": "bg-sky-400"
+    },
+    {
+      "name": "Proposal",
+      "deals": 12,
+      "value": 423000,
+      "color": "bg-amber-400"
+    },
+    {
+      "name": "Negotiation",
+      "deals": 8,
+      "value": 287000,
+      "color": "bg-orange-400"
+    },
+    {
+      "name": "Closed Won",
+      "deals": 5,
+      "value": 178000,
+      "color": "bg-emerald-400"
+    }
+  ],
+  "recentDeals": [
+    {
+      "id": "1",
+      "clientName": "TechCorp Solutions",
+      "value": 85000,
+      "stage": "closed-won",
+      "probability": 100,
+      "closeDate": "2024-01-15",
+      "salesRepId": "1",
+      "industry": "Technology",
+      "source": "Referral"
+    },
+    {
+      "id": "2",
+      "clientName": "FinanceFirst Inc.",
+      "value": 67000,
+      "stage": "negotiation",
+      "probability": 75,
+      "closeDate": "2024-01-25",
+      "salesRepId": "2",
+      "industry": "Finance",
+      "source": "Inbound"
+    },
+    {
+      "id": "3",
+      "clientName": "MedTech Innovations",
+      "value": 92000,
+      "stage": "proposal",
+      "probability": 60,
+      "closeDate": "2024-02-01",
+      "salesRepId": "3",
+      "industry": "Healthcare",
+      "source": "Cold Outreach"
+    }
+  ]
+}
